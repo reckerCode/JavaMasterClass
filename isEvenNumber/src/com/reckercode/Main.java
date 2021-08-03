@@ -5,22 +5,17 @@ public class Main {
         int number = 6;
         int finishNumber=20;
         while(number<=finishNumber){
-            System.out.println("The number passed is "+isEvenNumber(number));
             number++;
+            if(!isEvenNumber(number)){
+                continue;
+
+            }
         }
     }
 
-    private static String isEvenNumber(int isNumber){
+    private static boolean isEvenNumber(int isNumber){
 
-        if(isNumber%2==0){
-
-            return "Even";
-
-        }else{
-
-            return "Odd";
-
-        }
+        return isNumber % 2 == 0;
 
     }
 
