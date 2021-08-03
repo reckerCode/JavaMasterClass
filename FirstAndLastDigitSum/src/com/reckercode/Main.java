@@ -9,8 +9,10 @@ public class Main {
     }
     public static int sumFirstAndLastDigit(int number){
 
-        if(number<0){
+        if(number==0){
             return 0;
+        }else if (number<0){
+            return -1;
         }
         int sum = number%10;
         while(number>0){
