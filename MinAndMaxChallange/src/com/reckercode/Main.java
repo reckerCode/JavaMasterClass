@@ -5,22 +5,17 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int max=0;
-        int min=0;
+        int max=Integer.MIN_VALUE;
+        int min=Integer.MAX_VALUE;
         Scanner scanner = new Scanner(System.in);
 
-        boolean flag = true;
+//        boolean flag = true;
         while(true){
 
             System.out.println("Enter a number:");
             boolean isAnInt = scanner.hasNextInt();
             if(isAnInt) {
                 int number = scanner.nextInt();
-                if(flag){
-                    flag=false;
-                    min = number;
-                    max = number;
-                }
                 if (number > max) {
 //                    System.out.println(number+" is the maximum number so far");
                     max = number;
