@@ -8,7 +8,7 @@ public class BankAccount {
     private int phoneNumber;
 
     public BankAccount(){
-        System.out.println("Empty Constructor");
+        this("56789", 1000.0, "Default Name", "Default address", 12312312);
     }
 
     public BankAccount(String accountNumber, double balance, String customerName, String email, int phoneNumber){
@@ -19,6 +19,9 @@ public class BankAccount {
         this.phoneNumber = phoneNumber;
     }
 
+    public BankAccount(String customerName, String email, int phoneNumber) {
+        this("6969", 100.55, customerName, email, phoneNumber);
+    }
 
     public void deposit(double amount){
         this.balance=this.balance+amount;
