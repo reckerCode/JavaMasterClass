@@ -58,9 +58,7 @@ class Forgetable extends Movie{
     public Forgetable() {
         super("Forgatable");
     }
-
 }
-
 public class Main {
 
     public static void main(String[] args) {
