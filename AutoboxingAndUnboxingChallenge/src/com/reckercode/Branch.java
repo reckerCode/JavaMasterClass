@@ -9,7 +9,7 @@ public class Branch {
 
     public Branch(String name) {
         this.name = name;
-        this.customers = new ArrayList<Customers>();
+        this.customers = new ArrayList<>();
     }
 
     public String getName() {
@@ -35,7 +35,15 @@ public class Branch {
 
     private Customers findCustomers(String customerName){
         for(int i=0; i<this.customers.size();i++){
-            if()
+            Customers isCustomer = this.customers.get(i);
+            if(isCustomer.getName().equals(customerName)){
+                return isCustomer;
+            }
         }
+        return null;
+    }
+
+    public ArrayList<Customers> getCustomers() {
+        return customers;
     }
 }
