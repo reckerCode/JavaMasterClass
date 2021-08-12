@@ -1,14 +1,12 @@
 package com.reckercode;
-
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         Player recker = new Player("Recker", 75, 25);
-        System.out.println(recker.toString());
+        System.out.println(recker);
         saveObject(recker);
 
         recker.setHitPoints(55);
@@ -19,7 +17,7 @@ public class Main {
         System.out.println(recker);
     }
     public static ArrayList<String> readValues() {
-        ArrayList<String> values = new ArrayList<String>();
+        ArrayList<String> values = new ArrayList<>();
 
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;

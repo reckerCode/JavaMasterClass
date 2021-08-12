@@ -1,9 +1,6 @@
 package com.reckercode;
-
-import java.lang.invoke.VarHandle;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.ListIterator;
 
 public class Player implements Isavable{
 
