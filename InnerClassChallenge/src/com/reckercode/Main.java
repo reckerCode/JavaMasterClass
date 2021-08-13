@@ -136,8 +136,7 @@ public class Main {
                         }else if(listIterator.hasPrevious()){
                             System.out.println("Now Playing "+ listIterator.previous());
                         }
-                    }
-                    break;
+                    }break;
             }
         }
     }
