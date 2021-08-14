@@ -1,47 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94cf00aa-1a47-42f7-a8bf-78689c4b774e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/untitled104.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/mypackage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NamingConventions/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NamingConventions/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NamingConventions/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NamingConventions/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NamingConventions/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NamingConventions/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NamingConventions/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NamingConventions/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NamingConventions/NamingConventions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NamingConventions/src/com/reckercode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/.idea/artifacts/untitled104_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/GameTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/src/com/example/game/Isavable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/src/com/example/game/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PakageDemo/src/com/example/game/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GenericClassChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericClassChallenge/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="94cf00aa-1a47-42f7-a8bf-78689c4b774e" name="Changes" comment="Game test (Package Building)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -114,6 +85,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\GameTest\src\com\example\mypackage" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.example.mypackage.Main" />
@@ -140,6 +116,21 @@
       <option name="presentableId" value="Default" />
       <updated>1628901958897</updated>
     </task>
+    <task id="LOCAL-00001" summary="Package demo and naming conventions">
+      <created>1628902569090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628902569090</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Game test (Package Building)">
+      <created>1628902679299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628902679299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,5 +143,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Package demo and naming conventions" />
+    <MESSAGE value="Game test (Package Building)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game test (Package Building)" />
   </component>
 </project>
