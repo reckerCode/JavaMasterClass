@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8674f40-e6bb-4901-a692-fe503acb884b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../DebuggingUnitTesting/Banking.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_36_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckercode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testjava.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
+    <list default="true" id="a8674f40-e6bb-4901-a692-fe503acb884b" name="Changes" comment="Creating and handling database using sqlite drivers">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/reckercode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/reckercode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckercode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckercode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +110,14 @@
       <option name="presentableId" value="Default" />
       <updated>1629169450499</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creating and handling database using sqlite drivers">
+      <created>1629179457752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629179457752</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,5 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Creating and handling database using sqlite drivers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating and handling database using sqlite drivers" />
   </component>
 </project>

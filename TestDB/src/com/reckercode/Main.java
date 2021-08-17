@@ -3,18 +3,46 @@ package com.reckercode;
 import java.sql.*;
 
 public class Main {
+    public static final String DB_NAME = "testjava.db";
+    public static final String CONNECTION_STRING = "jdbc:sqlite:D:\\JavaProjects\\TestDB\\"+DB_NAME;
+    public static final String TABLE_CONTACTS = "contacts";
+    public static final String COLUMN_NAME = "name";
+    public static final String COLUMN_PHONE = "phone";
+    public static final String COLUMN_EMAIL = "email";
 
+//    public static final String PATH = "D:\\JavaProjects\\TestDB\\";
     public static void main(String[] args) {
 //        try(Connection conn = DriverManager.getConnection("jdbc:sqlite:D:\\JavaProjects\\TestDB\\testjava.db");
 //            Statement statement = conn.createStatement();){
 //            statement.execute("CREATE TABLE contacts(name TEXT, phone INTEGER, email TEXT)");
 //        }
         try{
-            Connection conn = DriverManager.getConnection("jdbc:sqlite:D:\\JavaProjects\\TestDB\\testjava.db");
+            Connection conn = DriverManager.getConnection(CONNECTION_STRING);
 //            conn.setAutoCommit(false);
             Statement statement = conn.createStatement();
-            statement.execute("CREATE TABLE IF NOT EXISTS contacts" +
-                    "(name TEXT, phone INTEGER, email TEXT)");// creating a table if it does not already exist.
+            statement.execute("DROP TABLE IF EXISTS"+ TABLE_CONTACTS);
+            statement.execute("CREATE TABLE IF NOT EXISTS " +TABLE_CONTACTS+
+                    "("+COLUMN_NAME +"text"
+                    +COLUMN_PHONE+"integer"
+                    +COLUMN_PHONE+"text)");// creating a table if it does not already exist.
+            statement.execute("INSERT INTO"+TABLE_CONTACTS+"("+
+                    COLUMN_NAME+"," +
+                    COLUMN_PHONE+","+
+                    COLUMN_EMAIL+")"+"VALUES('Recker', 123456, 'recker@myemail.com'");
+            statement.execute("INSERT INTO"+TABLE_CONTACTS+"("+
+                    COLUMN_NAME+"," +
+                    COLUMN_PHONE+","+
+                    COLUMN_EMAIL+")"+"VALUES('Smith', 654321, 'smith@myemail.com'");
+            statement.execute("INSERT INTO"+TABLE_CONTACTS+"("+
+                    COLUMN_NAME+"," +
+                    COLUMN_PHONE+","+
+                    COLUMN_EMAIL+")"+"VALUES('Joe', 567567567, 'joe@myemail.com'");
+            statement.execute("INSERT INTO"+TABLE_CONTACTS+"("+
+                    COLUMN_NAME+"," +
+                    COLUMN_PHONE+","+
+                    COLUMN_EMAIL+")"+"VALUES('Kevin', 999999, 'kevin@myemail.com'");
+            statement.execute("UPDATE"+ TABLE_CONTACTS+"SET"+COLUMN_PHONE+"=98798798 WHERE"+ COLUMN_NAME+"= 'Kevin'");
+//
 //            statement.execute("INSERT INTO contacts(name, phone, email) " +
 //                    "VALUES('Joe', 654321, 'myemail@joe.com') ");// inserting new row into the created table.
 //
@@ -28,18 +56,23 @@ public class Main {
 //                    "SET phone = 704704704 WHERE name = 'Recker' ");// updating existing row.
 //            statement.execute("DELETE FROM contacts WHERE name = 'Ryan'");// deleting a record.
 
-            statement.execute("SELECT * FROM contacts");// retrieving the whole table
-            ResultSet results = statement.getResultSet();// creating a result instance for printing the table
+//            statement.execute("SELECT * FROM contacts");// retrieving the whole table
+//            ResultSet results = statement.getResultSet();// creating a result instance for printing the table
+
+            ResultSet results = statement.executeQuery("SELECT * FROM contacts");// shorter way to create the instance
             System.out.println("Fetched data by Column name: \n");
+
             while(results.next()){// checking for the end of the table
                 System.out.println(results.getString("name") + " " +results.getInt("phone")
-                +" "+ results.getString("email\n"));// printing using the column name
+                +" "+ results.getString("email")+"\n");// printing using the column name
             }
             results.close();// closing the result instance because it can only be used once
 
-            statement.execute("SELECT * FROM contacts");
-            ResultSet results1 = statement.getResultSet();
+//            statement.execute("SELECT * FROM contacts");
+//            ResultSet results1 = statement.getResultSet();
+            ResultSet results1 = statement.executeQuery("SELECT * FROM contacts");
             System.out.println("Fetched data by Column index: \n");
+
             while(results1.next()){
                 System.out.println(results1.getString(1) + " " +results1.getInt(2)
                         +" "+ results1.getString(3)+"\n");// printing using the column index
