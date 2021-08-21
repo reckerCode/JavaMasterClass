@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8674f40-e6bb-4901-a692-fe503acb884b" name="Changes" comment="Creating and handling database using sqlite - updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/reckercode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/reckercode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckercode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckercode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testjava.db" beforeDir="false" afterPath="$PROJECT_DIR$/testjava.db" afterDir="false" />
-    </list>
+    <list default="true" id="a8674f40-e6bb-4901-a692-fe503acb884b" name="Changes" comment="Creating and handling database using sqlite - updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629183870765</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creating and handling database using sqlite - updated">
+      <created>1629241730785</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629241730785</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
